@@ -81,7 +81,7 @@ const config = {
           items: [
             {
               label: 'Introduction',
-              to: '/',
+              to: '/intro',
             },
             {
               label: 'Hosting Guide',
