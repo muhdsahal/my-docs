@@ -34,7 +34,7 @@ const config = {
           sidebarPath: './sidebars.js',
           routeBasePath: '/', // makes docs load at homepage
           editUrl:
-            'https://github.com/yourusername/docusaurus-docs/edit/main/',
+            'https://github.com/muhdsahal/my-docs/edit/master/docs/intro.md',
         },
         blog: false, // ❌ disable blog (docs-only site)
         theme: {
@@ -66,7 +66,7 @@ const config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/yourusername/docusaurus-docs',
+          href: 'https://github.com/muhdsahal/my-docs/',
           label: 'GitHub',
           position: 'right',
         },
@@ -95,7 +95,7 @@ const config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/yourusername/docusaurus-docs',
+              href: 'https://github.com/muhdsahal/my-docs/',
             },
           ],
         },
