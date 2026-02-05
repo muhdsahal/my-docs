@@ -86,6 +86,7 @@ const config = {
             {
               label: 'Hosting Guide',
               to: '/hosting',
+              
             },
           ],
         },
