@@ -12,8 +12,8 @@ const config = {
   },
 
   // 🔗 Change this based on hosting
-  url: 'https://yourusername.github.io', // GitHub Pages OR Vercel domain
-  baseUrl: '/docusaurus-docs/', // repo name (use '/' for Vercel)
+  url: 'https://my-docs-lime-eta.vercel.app',// Vercel always serves from root
+  baseUrl: '/', // repo name (use '/' for Vercel)
 
   organizationName: 'yourusername', // GitHub username
   projectName: 'docusaurus-docs', // GitHub repo name
@@ -86,7 +86,7 @@ const config = {
             {
               label: 'Hosting Guide',
               to: '/hosting',
-              
+
             },
           ],
         },
