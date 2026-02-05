@@ -11,6 +11,11 @@ const config = {
     v4: true,
   },
 
+  customFields: {
+    API_BASE_URL: process.env.DOCUSAURUS_API_URL || 'https://netbue-dev-api.algeb.com',
+  },
+
+
   // 🔗 Change this based on hosting
   url: 'https://my-docs-lime-eta.vercel.app',// Vercel always serves from root
   baseUrl: '/', // repo name (use '/' for Vercel)
@@ -66,10 +71,16 @@ const config = {
           position: 'left',
         },
         {
+          to: '/login',
+          label: 'Login',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/muhdsahal/my-docs/',
           label: 'GitHub',
           position: 'right',
         },
+        
       ],
     },
 
